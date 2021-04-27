@@ -1,0 +1,10 @@
+^C:\USERS\ASUS\DESKTOP\OPENGL-TRAINING-MASTER2\OPENGL-TRAINING-MASTER\ADVANCEDOPENGL\SRC\ENGINE\INPUT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Asus/Desktop/opengl-training-master2/opengl-training-master/AdvancedOpenGL -BC:/Users/Asus/Desktop/opengl-training-master2/opengl-training-master/AdvancedOpenGL/out/New --check-stamp-file C:/Users/Asus/Desktop/opengl-training-master2/opengl-training-master/AdvancedOpenGL/out/New/src/engine/input/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
