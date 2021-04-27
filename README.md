@@ -7,4 +7,4 @@
  
  then go to the debug and you have your exe.
 
-Bonjour sjsjiuduhsi
+Bonjour
